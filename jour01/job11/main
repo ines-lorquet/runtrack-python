@@ -1,0 +1,17 @@
+print("Chaîne de caractere a vérifier :")
+
+chaine=input()
+nb_e=0
+
+for i in range(len(chaine)):
+    if chaine[i]=="e":
+        nb_e+=1
+
+print("Il y a",nb_e,"e dans la chaîne de caractère")
+
+# ou alors :
+
+e = chaine.count("e")
+print("Il y a", e,"e dans la chaîne de caractère")
+
+#
