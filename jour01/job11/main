@@ -14,4 +14,3 @@ print("Il y a",nb_e,"e dans la chaîne de caractère")
 e = chaine.count("e")
 print("Il y a", e,"e dans la chaîne de caractère")
 
-#
