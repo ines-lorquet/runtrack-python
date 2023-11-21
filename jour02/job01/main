@@ -1,0 +1,9 @@
+#1
+for i in range(21):
+    print(i)
+
+#2
+i=0
+while i<20:
+    print(i)
+    i+=1

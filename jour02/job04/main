@@ -1,0 +1,8 @@
+N=int(input())
+c=0
+
+while c<N:
+    c+=1
+    print("La table de multiplication:",c)
+    for i in range(11):
+        print(c,"x",i,"=",c*i)
