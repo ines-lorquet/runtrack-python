@@ -1,0 +1,12 @@
+def times_to_text(minutes):
+    if minutes>=60:
+        X=minutes//60
+        Y=minutes-(60*X)
+        print(X,"heures",Y,"minutes")
+    else:
+        print("0 heures", minutes,"minutes")
+times_to_text(122)
+times_to_text(300)
+times_to_text(60)
+times_to_text(120)
+times_to_text(30)
