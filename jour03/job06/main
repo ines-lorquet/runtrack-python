@@ -1,0 +1,9 @@
+def positif_negatif(nombre):
+    if nombre<0:
+        print ("négatif")
+    else:
+        print ("positif")
+        
+positif_negatif(3)
+positif_negatif(-4)
+

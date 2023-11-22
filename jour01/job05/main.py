@@ -1,4 +1,4 @@
 #L'alphabet a l'envers
 print("zyxwvutsrqponmlkjihgfedcba")
-abc="abcdefghijklmnopqrstuvwxyz"
-print(abc[::-1])
+alphabet="abcdefghijklmnopqrstuvwxyz"
+print(alphabet[::-1])

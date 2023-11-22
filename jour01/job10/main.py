@@ -1,18 +1,17 @@
 #Programme financier
-init_investissement=1000
-rendement=0.02
-gain_annuel=init_investissement * rendement
+init_investissement=100
+taux=0.03
+gain_annuel=init_investissement * taux
 print(gain_annuel,"€")
 
 init_investissement+=gain_annuel
 init_investissement+=5000
-rendement+= 0.02
-gain_annuel=init_investissement * rendement
+taux+= taux * 0.02
+gain_annuel=init_investissement * taux
 print(gain_annuel,"€")
 
 init_investissement-=0.10
-rendement-=0.01
-gain_annuel=init_investissement * rendement
+taux-= taux*0.01
+gain_annuel=init_investissement * taux
 print(init_investissement,"€")
 print(gain_annuel)
-
