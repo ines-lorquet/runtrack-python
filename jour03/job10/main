@@ -1,10 +1,11 @@
 def pair_impair(nombre):
-    if nombre>0 and nombre%2==0:
+    if nombre>0 and nombre%2==0 and isinstance(nombre,int):
         print("Pair")
     elif nombre>0 and nombre%2!=0:
         print("Impair")
 
 pair_impair(3)
 pair_impair(2)
+pair_impair(2.2)
 pair_impair(15)
 pair_impair(22)
