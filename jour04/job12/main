@@ -1,0 +1,16 @@
+def ordre_croissant(liste):
+    croissant=[]
+    while liste:
+        min=liste[0]
+        for nb in liste:
+            if nb<min:
+                min=nb
+
+        croissant+=[min]
+        liste.remove(min)
+
+    return croissant
+
+L = [5,4,3,2,1]
+croissant = ordre_croissant(L)
+print(croissant)
