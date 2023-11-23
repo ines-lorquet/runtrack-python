@@ -1,0 +1,13 @@
+liste = [10, 20, 30, 20, 10, 50, 60, 40, 80, 50, 40]
+def sans_doublons(liste):
+    nouvelle_liste = []
+    
+    for nb in liste:
+        if nb not in nouvelle_liste:
+            nouvelle_liste.append(nb)
+    
+    return nouvelle_liste
+
+nouvelle_liste = sans_doublons(liste)
+
+print(nouvelle_liste)
