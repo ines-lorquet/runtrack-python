@@ -1,3 +1,4 @@
+L = [5,4,3,2,1]
 def ordre_croissant(liste):
     croissant=[]
     while liste:
@@ -11,6 +12,5 @@ def ordre_croissant(liste):
 
     return croissant
 
-L = [5,4,3,2,1]
 croissant = ordre_croissant(L)
 print(croissant)
