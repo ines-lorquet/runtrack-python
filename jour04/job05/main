@@ -1,0 +1,11 @@
+L=[]
+for i in range(1,6):
+    L+=[i]
+print(L)
+print(L[1])
+
+def remplace():
+    L[3]=L[2]+L[4]
+    print(L)
+    print(L[4])
+remplace()
