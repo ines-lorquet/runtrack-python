@@ -1,0 +1,24 @@
+def compte(p):
+  longueur = 0
+  for lettre in p:
+    longueur+=1
+  return longueur
+
+def my_long_word(n, phrase):
+    mots_superieur_n = ""
+    verifier_mot = ""
+
+    for lettre in phrase:
+        if lettre != " ":
+            verifier_mot += lettre
+        else:
+            if compte(verifier_mot) > n:
+                mots_superieur_n += verifier_mot + " "
+            verifier_mot = ""
+
+    if compte(verifier_mot) > n:
+        mots_superieur_n += verifier_mot
+
+    return mots_superieur_n
+
+print(my_long_word(3, "La peur est le chemin vers le côté obscur, la peur mène à la colère, la colère mène à la haine, la haine mène à la souffrance"))
