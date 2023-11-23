@@ -1,0 +1,10 @@
+liste=[1,2,3,4,5]
+def inversement():
+    if len(liste)>0:
+        valeur1=liste[0]
+        liste[0]=liste[4]
+        liste[4]=valeur1
+    else:
+        print("la liste est vide")
+    print(liste)
+inversement()
