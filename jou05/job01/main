@@ -1,0 +1,4 @@
+prenom=input("Entrez le prénom :")
+def hello(prenom):
+    print("Hello",prenom,"!")
+hello(prenom)
