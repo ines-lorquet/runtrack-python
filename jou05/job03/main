@@ -1,0 +1,19 @@
+repetition=int(input())
+def triangle(nb):
+    debut="/\\"
+    g = "/"
+    d = "\\"
+    b = "_"
+    
+    for i in range(nb):
+        space = " " * (nb - i - 1)
+        if i==0:
+            print(space,debut)
+        elif i==nb-1:
+            print(space,g,b*(2*nb-4),d)
+        elif i==0:
+            print(space,g,d)
+        else:
+            print(space,g," "*(i*2-2),d)
+    
+triangle(repetition)
